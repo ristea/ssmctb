@@ -32,16 +32,21 @@ We provide implementation for both PyTorch and Tensorflow in the ``torch_ssmctb.
 [SSPCAB](https://github.com/ristea/sspcab) |
 [vit-pytorch](https://github.com/lucidrains/vit-pytorch) <br>
 
+## Dataset
+The Thermal Rare Event dataset is available for download at:
+[https://www.kaggle.com/datasets/neelu1/thermal-anomaly-detection-dataset](https://www.kaggle.com/datasets/neelu1/thermal-anomaly-detection-dataset)
+
+It is released under the [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.<br>
 
 ## Citation
 
 If you use our block in your own work, please don't forget to cite us:
 
 ```
-@inproceedings{Madan-ARXIV-2022,
+@article{Madan-ARXIV-2022,
   title={Self-Supervised Masked Convolutional Transformer Block for Anomaly Detection},
   author={Madan, Neelu and Ristea, Nicolae-Catalin and Ionescu, Radu Tudor and Nasrollahi, Kamal and Khan, Fahad Shahbaz and Moeslund, Thomas B and Shah, Mubarak},
-  booktitle={ARXIV},
+  journal={arXiv preprint arXiv:2209.12148},
   year={2022}
 }
 ```
